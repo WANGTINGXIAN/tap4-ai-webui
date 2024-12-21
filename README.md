@@ -1,24 +1,24 @@
-# Open Source Tap4 AI Web UI
+# Open Source WoWo AI Web UI
 
-This is an open-source AI Tools Directory project from [Tap4 AI Tool Directory](https://tap4.ai). Our goal is to make it
+This is an open-source AI Tools Directory project from [WoWo AI Tool Directory](https://www.amfuture.xyz/). Our goal is to make it
 easy for everyone to have their own AI Tools Directory, to collect their favorite AI tool products. This project is very
 lightweight and easy to maintain, suitable for individual developers interested in AI navigation sites, and also
 suitable for learners interested in NextJs. Everyone is welcome to fork and star.
 
-[Simplified Chinese](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.zh-CN.md) | English
+[Simplified Chinese](https://github.com/WANGTINGXIAN/tap4-ai-webui/blob/main/README.zh-CN.md) | English
 
-## Support Tap4 AI in Product Hunt
+## Support WoWo AI in Product Hunt
 
 <a href="https://www.producthunt.com/posts/ai-tools-directory-by-tap4-ai?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ai&#0045;tools&#0045;directory&#0045;by&#0045;tap4&#0045;ai" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=464357&theme=light" alt="AI&#0032;Tools&#0032;Directory&#0032;by&#0032;Tap4&#0032;AI - Open&#0045;source&#0032;AI&#0032;navigation&#0032;&#0038;&#0032;discovery&#0032;with&#0032;multi&#0045;language | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 ## Version 2.0.0 Update Notes
 
 - AI site data is stored using a supabase database.
-- It is connected to the Tap4 AI crawler project, supporting fully automatic submission and collection.
+- It is connected to the WoWo AI crawler project, supporting fully automatic submission and collection.
 - Supports simple categorization and search.
 
 Note: If you are not familiar with the database, or are concerned about compatibility issues with version 1.0.0, please
-click to switch to the [version 1.0.0 branch](https://github.com/6677-ai/tap4-ai-webui/tree/v1.0.0).
+click to switch to the [version 1.0.0 branch](https://github.com/WANGTINGXIAN/tap4-ai-webui/tree/v1.0.0).
 
 ## Latest Features Introduction
 
@@ -49,13 +49,13 @@ If you find the project helpful, please consider buying me a coffee:
 
 <a href="https://www.buymeacoffee.com/tap4ai0o" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
-If you are interested in the project, please add my WeChat: helloleo2023, note: "tap4 ai open source"
+If you are interested in the project, please add my WeChat: helloleo2023, note: "WoWo AI open source"
 
 ## Deployment Instructions
 
-### Deploying Tap4 AI Crawler
+### Deploying WoWo AI Crawler
 
-See [Tap4 AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) for details. After deployment, you can use the
+See [WoWo AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) for details. After deployment, you can use the
 platform's domain name or a custom domain name as the API interface for generating AI tool web page content (e.g.,
 https://{crawler_domain}/site/crawl, where {crawler_domain} is your specific domain name).
 
@@ -79,7 +79,7 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY writ
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://www.amfuture.xyz/"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
@@ -126,7 +126,7 @@ results.**
 #### Clone this project
 
 ```sh
-git clone https://github.com/6677-ai/tap4-ai-webui.git
+git clone https://github.com/WANGTINGXIAN/tap4-ai-webui.git
 ```
 
 #### Create a Supabase Database and Execute SQL Scripts
@@ -144,7 +144,7 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY writ
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://www.amfuture.xyz/"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
@@ -203,12 +203,12 @@ website content and insert it into the web_navigation table.
 
 ### How to get the ai tools for project initialization?
 
-You can get the 13000+ AIs from Tap4 AI collected from other AI Tools Directory in
-[AI Source List](https://github.com/6677-ai/tap4-ai-webui/blob/main/ai_source_list)
+You can get the 13000+ AIs from WoWo AI collected from other AI Tools Directory in
+[AI Source List](https://github.com/WANGTINGXIAN/tap4-ai-webui/blob/main/ai_source_list)
 
 ## Wanna submit your website on Tap4.ai?
 
-Open: [Tap4 AI](https://tap4.ai)
+Open: [WoWo AI](https://www.amfuture.xyz/)
 
 ### Wanna add you website to our `/startup` page?
 

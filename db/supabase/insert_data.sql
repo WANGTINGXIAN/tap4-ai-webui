@@ -1445,7 +1445,7 @@ INSERT INTO public.web_navigation (
     name, title, content, detail, url, image_url, thumbnail_url, collection_time, tag_name, website_data, star_rating, category_name
 ) VALUES (
     'tap4-ai',
-    'Tap4 AI Tools Directory',
+    'WoWo AI Tools Directory',
     'We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission.',
     '
 ### What is tap4.ai?
@@ -1475,7 +1475,7 @@ We highly value user privacy, and your data will not be used for any training pu
 ### When would I need a tap4.ai subscription?
 
 If the 20 free GPT-4o conversations per day do not meet your needs and you heavily rely on GPT-4o, we invite you to subscribe to our affordable products.',
-    'https://tap4.ai/',
+    'https://www.amfuture.xyz//',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-1718632263.png',
     'https://img.tap4.ai/tools/2024/6/17/openai-com-thumbnail-1718632268.png',
     '2024-06-17 18:51:17',

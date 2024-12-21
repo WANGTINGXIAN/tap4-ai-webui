@@ -1,10 +1,10 @@
 # 开源Tap4 AI Web UI
 
-这是一个由[Tap4 AI工具导航站](https://tap4.ai)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己的AI导航站，
+这是一个由[Tap4 AI工具导航站](https://www.amfuture.xyz/)开源的AI导航站项目。我们的目标是让大家很容易就拥有一个属于自己的AI导航站，
 收录自己喜欢的AI工具产品。这个项目非常轻量级，维护简单，适合对AI导航站感兴趣的个人开发者，也适合对NextJs有兴趣的学习者，
 欢迎大家fork和star。
 
-[English](https://github.com/6677-ai/tap4-ai-webui/blob/main/README.md) | 简体中文
+[English](https://github.com/WANGTINGXIAN/tap4-ai-webui/blob/main/README.md) | 简体中文
 
 ## 请在Product Hunt支持下Tap4 AI
 
@@ -17,7 +17,7 @@
 - 支持简易的分类和搜索
 
 注：如果你对数据库不熟悉，或者担心和v1.0.0版本的兼容问题，请点击切
-到[v1.0.0分支](https://github.com/6677-ai/tap4-ai-webui/tree/v1.0.0)。
+到[v1.0.0分支](https://github.com/WANGTINGXIAN/tap4-ai-webui/tree/v1.0.0)。
 
 ## 最新功能介绍
 
@@ -55,7 +55,7 @@
 
 ### 部署Tap4 AI Crawler
 
-具体见[Tap4 AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) 部署完成后，可以使用平台提供的域名或者自定义域名，作
+具体见[WoWo AI Crawler](https://github.com/6677-ai/tap4-ai-crawler) 部署完成后，可以使用平台提供的域名或者自定义域名，作
 为生成AI工具网页内容的API接口(示例：https://{crawler_domain}/site/crawl, {crawler_domain}为你的具体域名)，**需要配置到
 env环境变量CRAWLER_API**中
 
@@ -74,7 +74,7 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY，�
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://www.amfuture.xyz/"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX" GOOGLE_ADSENSE_URL="https://xxxx.googlesyndication.com/xxxxx/xxxxx"
@@ -118,7 +118,7 @@ SUBMIT_AUTH_KEY="xxxx"
 #### （1）克隆此项目
 
 ```sh
-git clone https://github.com/6677-ai/tap4-ai-webui.git
+git clone https://github.com/WANGTINGXIAN/tap4-ai-webui.git
 ```
 
 ### 创建Supabase数据库及执行sql脚本
@@ -136,7 +136,7 @@ NEXT_PUBLIC_SITE_URL,NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY，�
 
 ```sh
 # Your domain
-NEXT_PUBLIC_SITE_URL="https://tap4.ai"
+NEXT_PUBLIC_SITE_URL="https://www.amfuture.xyz/"
 
 # Google tracking ID and ad URL
 GOOGLE_TRACKING_ID="G-XXXXXXX"
@@ -198,11 +198,11 @@ pnpm dev
 ### 如何获得初始化需要的AI工具列表？
 
 可以通过Tap4 AI开源的来自其他导航站的13000+个AI工具列表导入(支持sql和csv)：
-[AI Source List](https://github.com/6677-ai/tap4-ai-webui/blob/main/ai_source_list)
+[AI Source List](https://github.com/WANGTINGXIAN/tap4-ai-webui/blob/main/ai_source_list)
 
 ## 打算在 Tap4.ai 上提交您的网站？
 
-请打开：[Tap4 AI](https://tap4.ai/submit)
+请打开：[WoWo AI](https://www.amfuture.xyz//submit)
 
 ### 打算将您的网站添加到我们的 `/startup` 页面？
 
@@ -214,7 +214,7 @@ pnpm dev
 ### TAP4-AI-Directory
 
 全球AI工具的集合。| 收集免费的ChatGPT镜像、替代品、prompt、其他AI工具等。欲了解更多信息，请访
-问：[Tap4 AI](https://tap4.ai)
+问：[WoWo AI](https://www.amfuture.xyz/)
 
 ### 如何在网站列表中获得您的首批用户
 
